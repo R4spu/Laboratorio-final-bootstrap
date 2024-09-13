@@ -1,119 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="about.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>About</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="about.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>About</title>
 </head>
+
 <body>
 
-    <header >
-        <nav class="navbar fondoheaderyfooter">
-                <div class="container text-center justify-content-center">
-                  <ul class="nav justify-content-center">
-                    <a class="navbar-brand" href="#">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf-yoOj02bS_dp0ynIr7nMNBBzP_6f8edztQ&s" alt="Dev" width="30" height="24">
-                    </a>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Sobre nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </header>
-    
-    <div class="container-fluid">
+  <header>
+    <nav class="navbar fondoheaderyfooter">
+      <div class="container text-center justify-content-center">
+        <ul class="nav justify-content-center">
+          <a class="navbar-brand" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf-yoOj02bS_dp0ynIr7nMNBBzP_6f8edztQ&s"
+              alt="Dev" width="30" height="24">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Primera columna vacía para centrar el contenido -->
+      <div class="col-md-3"></div>
+
+      <!-- Segunda columna con el contenido de "Quiénes somos" -->
+      <div class="col-md-6">
+        <h2 class="text-center">Quiénes Somos</h2>
+        <p class="text-justify">
+          Somos un equipo de desarrolladores fullstack comprometidos con la educación tecnológica. Nuestro objetivo es
+          proporcionar información relevante sobre los diferentes lenguajes de programación, sus frameworks y cómo
+          aprovechar al máximo estas herramientas.
+        </p>
+
+        <!-- Perfil de cada miembro del equipo -->
         <div class="row">
-          <!-- Primera columna vacía para centrar el contenido -->
-          <div class="col-md-3"></div>
-      
-          <!-- Segunda columna con el contenido de "Quiénes somos" -->
+          <!-- Tarjeta de Cristhian -->
           <div class="col-md-6">
-            <h2 class="text-center">Quiénes Somos</h2>
-            <p class="text-justify">
-              Somos un equipo de desarrolladores fullstack comprometidos con la educación tecnológica. Nuestro objetivo es proporcionar información relevante sobre los diferentes lenguajes de programación, sus frameworks y cómo aprovechar al máximo estas herramientas.
-            </p>
-      
-            <!-- Perfil de cada miembro del equipo -->
-            <div class="row">
-              <!-- Tarjeta de Cristhian -->
-              <div class="col-md-6">
-                <div class="card">
-                  <img src="https://i.ibb.co/WW4n1Vk/9434619.jpg"class="card-img-top" alt="Foto de Cristhian">
-                  <div class="card-body">
-                    <h5 class="card-title">Cristhian Jimenez</h5>
-                    <p class="card-text">Desarrollador fullstack apasionado por transformar ideas en soluciones digitales eficientes y escalables.</p>
-                  </div>
-                </div>
-              </div>
-      
-              <!-- Tarjeta de Rafael -->
-              <div class="col-md-6">
-                <div class="card">
-                  <img src="https://i.ibb.co/qsNfVt9/9306614.jpg"class="card-img-top" alt="Foto de Rafael">
-                  <div class="card-body">
-                    <h5 class="card-title">Rafael Arteaga</h5>
-                    <p class="card-text">Experto en back-end con un enfoque en metodologías ágiles, optimización de procesos y arquitectura de software.</p>
-                  </div>
-                </div>
-              </div>
-      
-              <!-- Tarjeta de Angelly -->
-              <div class="col-md-6 mt-3">
-                <div class="card">
-                  <img src="https://i.ibb.co/mFTM0zy/angelly.jpg" class="card-img-top" alt="Foto de Angelly">
-                  <div class="card-body">
-                    <h5 class="card-title">Angelly Delgado</h5>
-                    <p class="card-text">Desarrolladora front-end con pasión por la experiencia de usuario y el diseño de interfaces atractivas.</p>
-                  </div>
-                </div>
-              </div>
-      
-              <!-- Tarjeta de Emanuel -->
-              <div class="col-md-6 mt-3">
-                <div class="card">
-                  <img src="https://i.ibb.co/rdGQCW3/emanuel.jpg" class="card-img-top" alt="Foto de Emanuel">
-                  <div class="card-body">
-                    <h5 class="card-title">Emanuel Silano</h5>
-                    <p class="card-text">Especialista en desarrollo fullstack, con experiencia en la integración de sistemas complejos y soluciones escalables.</p>
-                  </div>
-                </div>
+            <div class="card">
+              <img src="https://i.ibb.co/WW4n1Vk/9434619.jpg" class="card-img-top" alt="Foto de Cristhian">
+              <div class="card-body">
+                <h5 class="card-title">Cristhian Jimenez</h5>
+                <p class="card-text">Desarrollador fullstack apasionado por transformar ideas en soluciones digitales
+                  eficientes y escalables.</p>
               </div>
             </div>
-      
-          
-            <div class="card mt-5">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1bDK1-U1edE?si=eGY-T2-MNaSgRy60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title text-center">El Motivo de Nuestro Proyecto</h5>
-                  <p class="card-text">
-                    Nuestro proyecto tiene como objetivo ayudar a las personas a aprender sobre los diferentes lenguajes de programación y sus frameworks. 
-                    Somos un equipo de desarrolladores fullstack comprometidos con proporcionar información relevante y actualizada sobre herramientas 
-                    tecnológicas, facilitando el proceso de aprendizaje y brindando orientación a aquellos que buscan mejorar sus habilidades de programación.
-                  </p>
-                </div>
+          </div>
+
+          <!-- Tarjeta de Rafael -->
+          <div class="col-md-6">
+            <div class="card">
+              <img src="https://i.ibb.co/qsNfVt9/9306614.jpg" class="card-img-top" alt="Foto de Rafael">
+              <div class="card-body">
+                <h5 class="card-title">Rafael Arteaga</h5>
+                <p class="card-text">Experto en back-end con un enfoque en metodologías ágiles, optimización de procesos
+                  y arquitectura de software.</p>
               </div>
-              
-              
+            </div>
+          </div>
+
+          <!-- Tarjeta de Angelly -->
+          <div class="col-md-6 mt-3">
+            <div class="card">
+              <img src="https://i.ibb.co/mFTM0zy/angelly.jpg" class="card-img-top" alt="Foto de Angelly">
+              <div class="card-body">
+                <h5 class="card-title">Angelly Delgado</h5>
+                <p class="card-text">Desarrolladora front-end con pasión por la experiencia de usuario y el diseño de
+                  interfaces atractivas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta de Emanuel -->
+          <div class="col-md-6 mt-3">
+            <div class="card">
+              <img src="https://i.ibb.co/rdGQCW3/emanuel.jpg" class="card-img-top" alt="Foto de Emanuel">
+              <div class="card-body">
+                <h5 class="card-title">Emanuel Silano</h5>
+                <p class="card-text">Especialista en desarrollo fullstack, con experiencia en la integración de sistemas
+                  complejos y soluciones escalables.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-      
-          <!-- Tercera columna vacía para centrar el contenido -->
-          <div class="col-md-3"></div>
+        <div class="card mt-5">
+          <div class="text-center embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1bDK1-U1edE?si=eGY-T2-MNaSgRy60"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="480px" height="300px"></iframe>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">El Motivo de Nuestro Proyecto</h5>
+            <p class="card-text">
+              Nuestro proyecto tiene como objetivo ayudar a las personas a aprender sobre los diferentes lenguajes de
+              programación y sus frameworks.
+              Somos un equipo de desarrolladores fullstack comprometidos con proporcionar información relevante y
+              actualizada sobre herramientas
+              tecnológicas, facilitando el proceso de aprendizaje y brindando orientación a aquellos que buscan mejorar
+              sus habilidades de programación.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- Tercera columna vacía para centrar el contenido -->
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+  <br>
+   <!--footer-->
+   <footer>
+    <div class="container-fluid text-center fondoheaderyfooter py-4">
+      <div class="row">
+        <div class="col-sm-3"><a class="navbar-brand" href="#">
+            <img
+              src="https://eep.io/images/yzco4xsimv0y/1u3hha7FE0Q402e2qsMu6a/974b6152ebda830662077de62c9a09c3/icon-ios-es.svg?w=320&q=70"
+              alt="apple" width="100" height="70">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/44c627ed4318a264d67b561af7f4bb3e/google-play-badge-ES-SP.svg?w=320&q=70"
+              alt="google" width="100" height="70">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/c4f1bcaa7f06c0dbf66158331144eaf5/icon-facebook-21-20.svg?w=320&q=70"
+              alt=" Faceboook" width="30" height="30">
+          </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/61893a8beccd98808e4f8083d5a19764/icon-youtube-29-20-White__1_.svg?w=320&q=70"
+              alt="Youtube" width="35" height="35">
+          </a>
+        </div>
+        <div class="col-sm-7">©2001-2024 Todos los derechos reservados. Prototype® es una marca registrada de The
+          Rocket Science Group. Apple y su logotipo son marcas comerciales de Apple Inc. La Mac App Store es una marca
+          de servicio de
+          Apple Inc. Google Play y su logotipo son marcas comerciales de Google Inc. <a href="">Privacidad</a> | <a
+            href="">Condiciones</a> | <a href="">Normativa</a> | <a href="">Preferencias de cookies</a></div>
+        <div class="col-sm-2">
+          <div >
+            <div class="card-body">
+              <h5 class="card-title">Diseñado por</h5>
+              <p class="card-text">Angelly Delgado, Cristian Jimenez, Emmanuel Silano, Rafael Arteaga
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      
-    
+    </div>
+  </footer>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
