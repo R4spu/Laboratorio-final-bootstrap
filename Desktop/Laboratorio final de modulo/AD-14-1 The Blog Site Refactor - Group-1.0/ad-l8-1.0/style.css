@@ -1,6 +1,8 @@
-html {
+html 
+{
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
   }
   
 
@@ -34,3 +36,25 @@ h3{
 
 
 
+=======
+}
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+header{
+  min-height: 5vh;
+}
+main{
+min-height: 85vh;
+
+}
+footer{
+  min-height: 10vh;
+}
+
+.fondoheaderyfooter{
+  background-color: rgb(102, 255, 255,0.25)
+}
+>>>>>>> main
