@@ -2,41 +2,11 @@ html
 {
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
-  }
-  
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /***Home Page***/
 h3{
   border-bottom: 2px solid #b380cc;
   margin-bottom: 26px;
-}
-
-
-
-
-
-
-=======
 }
 *{
 margin: 0px;
@@ -57,4 +27,3 @@ footer{
 .fondoheaderyfooter{
   background-color: rgb(102, 255, 255,0.25)
 }
->>>>>>> main
