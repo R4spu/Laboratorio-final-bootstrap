@@ -14,6 +14,12 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Genial, pronto no pondremos en contacto contigo', 'success')
+    appendAlert('Genial, pronto nos pondremos en contacto contigo', 'success')
+    const nombre = document.querySelector('#name')
+    const correo = document.querySelector('#email')
+    const texto = document.querySelector('#message')
+    nombre.value = ""
+    correo.value = ""
+    texto.value = ""
   })
 }
