@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+#formulario{
+  margin: 20px auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #66ffff7e;
+  border: #8cbfe6 solid;
+}
+.btn-enviar{
+  background-color: #b380cc;
+  color: white;
+} 
